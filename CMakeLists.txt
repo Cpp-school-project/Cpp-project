@@ -14,6 +14,8 @@ qt_add_executable(appAntWar
     src/main.cpp
     src/game/GameController.h
     src/game/GameController.cpp
+        src/units/Unit.cpp
+        src/units/Unit.h
 )
 
 qt_add_qml_module(appAntWar
